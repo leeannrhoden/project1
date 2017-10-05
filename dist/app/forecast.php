@@ -21,9 +21,9 @@
   $address_data = json_decode(file_get_contents($address_url), true);
 
   // Optional, uncomment to see the data array
-  // echo '<pre>';
-  // print_r($address_data);
-  // echo '</pre>';
+  //echo '<pre>';
+  //print_r($address_data);
+  //echo '</pre>';
 
   // Get the latitude and longitude array from the Google Geo data
   $coordinates = $address_data['results'][0]['geometry']['location'];
@@ -51,3 +51,8 @@
   //Weather Variables
     $temp_current = round($forecast["currently"]["temperature"]);
     $humidity_current = $forecast["currently"]["humidity"]*100;
+
+
+
+
+    ?>
