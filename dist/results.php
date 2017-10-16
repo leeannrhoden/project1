@@ -6,7 +6,7 @@
 <div class="container py-5">
 		<h1 class="display-1">Results</h1>
 	
-
+	<img src="" alt="">
 	<h2>
 		<?php echo $temp_current; ?>&deg;
 	</h2>
@@ -16,5 +16,6 @@
 	</p>
 
 </div>
+
 	
 <?php  include 'partials/footer.php'; ?>

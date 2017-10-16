@@ -82,8 +82,10 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$blue-2d: #2d8cca;
 
 $colors: (
+  
   blue: $blue,
   indigo: $indigo,
   purple: $purple,
@@ -96,11 +98,12 @@ $colors: (
   cyan: $cyan,
   white: $white,
   gray: $gray-600,
-  gray-dark: $gray-800
+  gray-dark: $gray-800,
+  weather-blue: $blue-2d,
 ) !default;
 
 $theme-colors: (
-  primary: $blue,
+  primary: $blue-2d,
   secondary: $gray-600,
   success: $green,
   info: $cyan,

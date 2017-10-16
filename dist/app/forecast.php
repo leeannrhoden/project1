@@ -53,6 +53,4 @@
     $humidity_current = $forecast["currently"]["humidity"]*100;
 
 
-
-
     ?>
