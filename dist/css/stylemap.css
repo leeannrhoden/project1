@@ -1,21 +1,26 @@
 #us-map{
   display: inline-flex;
-  position: absolute;
+  margin-left: 100px;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
-path:hover, circle:hover {
-  stroke: #ee5749 !important;
-  stroke-width:2px;
+path{
+  stroke: black;
+  stroke-width: 2.5px;
+}
+
+ path:hover, circle:hover {
+  stroke: black !important;
+  stroke-width:2px !important;
   stroke-linejoin: round;
-  fill: #ee5749 !important;
+  fill: #f9dc48 !important;
   cursor: pointer;
 }
 #path67 {
   fill: none !important;
-  stroke: #A9A9A9 !important;
+  stroke: #ffffff !important;
   cursor: default;
 }
 #info-box {
@@ -25,7 +30,7 @@ path:hover, circle:hover {
   left: 0px;
   z-index: 1;
   background-color: #ffffff;
-  border: 2px solid #ee5749;
+  border: 5px solid #ee5749;
   border-radius: 5px;
   padding: 5px;
   font-family: Comic Sans MS;

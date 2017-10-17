@@ -51,6 +51,9 @@
   //Weather Variables
     $temp_current = round($forecast["currently"]["temperature"]);
     $humidity_current = $forecast["currently"]["humidity"]*100;
+    $icon_current = $forecast["currently"] ["icon"];
+
+
 
 
     ?>

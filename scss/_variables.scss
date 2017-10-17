@@ -76,13 +76,14 @@ $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #dc3545 !default;
+$red:     #ee5749 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $blue-2d: #2d8cca;
+$red-ee: #ee5749;
 
 $colors: (
   
@@ -108,7 +109,7 @@ $theme-colors: (
   success: $green,
   info: $cyan,
   warning: $yellow,
-  danger: $red,
+  danger: $red-ee,
   light: $gray-100,
   dark: $gray-800
 ) !default;
