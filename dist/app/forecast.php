@@ -4,6 +4,7 @@
   include 'keys.php';
 
 
+
   // Get the address from the form and sanitize it
   $address = htmlspecialchars($_POST["location"]);
 
@@ -46,14 +47,18 @@
   $forecast = json_decode(file_get_contents($forecast), true);
 
     //Test Array
-    echo '<pre>';
-    print_r($forecast);
-    echo '</pre>';
+    // echo '<pre>';
+    // print_r($forecast);
+    // echo '</pre>';
 
   //Weather Variables
     $temp_current = round($forecast["currently"]["temperature"]);
     $humidity_current = $forecast["currently"]["humidity"]*100;
     $icon_current = $forecast["currently"]["icon"];
+
+
+    // JSON Expirements
+  // $experiments = json_decode(file_get_contents('../app/expirements.json'), true);
 
 
 
