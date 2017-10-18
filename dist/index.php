@@ -3,19 +3,21 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <!-- Start of Jumbo Tron(Call to Action) -->
 		<div class="jumbotron bg py-5 bottomborder">
-				
-			<h1 class="display-1 mb-4 text-center ">Kids' Climate</h1>
+			<div class="attention bg-danger rounded pt-3 pb-5 mt-5 mx-auto">	
+				<h1 class="display-1 mb-4 text-center text-white">Kid<span class="cool">Z</span>' Climate</h1>
 
-			<!-- Start of Search form -->
-			<form class="form-inline d-flex justify-content-center" method="post" action="results.php">
-			  	<label class="sr-only" for="location">location</label>
-			  	<input name="location" type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="location" 
-			  placeholder="location">
-			<button type="submit"  class="btn btn-dark">Go!</button>
-			</form>
+				<!-- Start of Search form -->
+				<form class="form-inline d-flex justify-content-center" method="post" action="results.php">
+				  	<label class="sr-only" for="location">location</label>
+				  	<input name="location" type="text" class="where form-control-lg mb-2 mr-sm-2 mb-sm-0" id="location" 
+				  placeholder="location">
+				<button type="submit"  class=" where btn-lg btn-dark">Go!</button>
+				</form>
+			</div>
 			<!-- End of Form -->
 		</div>
 <!-- End of Call to Action -->
+
 <!-- Start of Content -->
 	
 		<div>

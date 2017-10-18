@@ -55,8 +55,8 @@
     $humidity_current = $forecast["currently"]["humidity"]*100;
     $icon_current = $forecast["currently"]["icon"];
 
-// JSON.......Expirements
-    $expirements = file_get_contents('../app/expirements.json');
+
+
 
 
     ?>

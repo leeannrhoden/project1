@@ -8406,8 +8406,13 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important;
 }
 
+.attention {
+  max-width: 700px;
+}
+
 .bg {
   background-size: cover;
+  background-size: 120%;
   background-image: url(../images/jumbo.png);
   background-color: #fff;
 }
@@ -8420,6 +8425,16 @@ a.text-dark:focus, a.text-dark:hover {
   border-bottom: 20px solid #000;
 }
 
+.cool {
+  font-family: 'Permanent Marker', cursive;
+}
+
 .title {
   font-family: 'Permanent Marker', cursive;
+}
+
+.where {
+  border-style: solid;
+  border: 10px;
+  border-color: #555;
 }

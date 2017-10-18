@@ -1,17 +1,17 @@
 [
 
 	{
-		"expirement": "Make a Rainbow",
+		"title": "Make a Rainbow",
 		"materials": "stuff",
 		"explanation":"blah"
 	},
 	{
-		"expirement": "Cloud in a Bottle",
+		"title": "Cloud in a Bottle",
 		"materials": "stuff",
 		"explanation":"blah"
 	},
 	{
-		"expirement": "Make Lightining in your Mouth",
+		"title": "Make Lightining in your Mouth",
 		"materials": "stuff",
 		"explanation":"blah"
 	}
@@ -19,3 +19,5 @@
 
 
 ]
+
+

@@ -1,5 +1,10 @@
+.attention{
+	max-width: 700px;
+}
+
 .bg {
 	background-size: cover;
+	background-size: 120%;
   	background-image: url(../images/jumbo.png);
   	background-color: #fff;
   }
@@ -11,10 +16,20 @@
 .bottomborder {
     border-bottom: 20px solid #000;
 }
+ .cool{
+ 	font-family: 'Permanent Marker', cursive;
+ 
+ }
 
 
 .title {
 	font-family: 'Permanent Marker', cursive;
 }
 
+.where
+{
+	border-style: solid;
+	border: 10px;
+	border-color: #555;
+}
 
