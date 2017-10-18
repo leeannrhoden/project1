@@ -6,9 +6,10 @@
 <div class="container mx-auto">
 	<!-- Start of Card -->
 	<div class="card border-0">
-		<img src="images/<?php  echo  $icon_current ?>.svg" alt="" width="300px" class="mx-auto">
+	
+		<img src="photos/<?php echo $icon_current; ?>.svg" alt="" width="300px" class="mx-auto">
 		
-		<h2 class="mx-auto"> 
+		<h2 class="title mx-auto display-4"> 
 			<?php echo $place; ?>
 		</h2>
 
@@ -27,26 +28,38 @@
 
 		 	<!--  experiment title-->
 		  	<div class="title bg-white my-3 mx-5 py-4 px-2 rounded">
-		  		Suck an Egg into a bottle
+			
+			
+
+			<?php
+			 $expirements = file_get_contents('expirements.json');
+			 $expirements = json_decode($expirements); 
+			 print_r ($expirements);
+
+			 ?>
+
+<!-- 		
+
+		  		<h1>SUCK AN EGG INTO A BOTTLE</h1> -->
 		  	</div>
 
 		  	<!-- MATERIALS-->
-		  	<div class="materials bg-white my-4 mx-5 py-4 px-2 rounded" width="200px" >
+		  	<!-- <div class="materials bg-white my-4 mx-5 py-4 px-2 rounded" width="200px" >
 		  		
-		  	</div>
+		  	</div> -->
 
 		  	<!-- DRAWING -->
-		  	<div class=" drawing bg-white my-4 mx-5 py-4 px-2 rounded" >
+		  <!-- 	<div class=" drawing bg-white my-4 mx-5 py-4 px-2 rounded" > -->
 		  		
-		  	</div>
+		  	<!-- </div> -->
 			
 			<!-- STEPS -->
-			<div class="steps bg-white my-4 mx-5 py-4 px-2 rounded">
-				
-			</div>
+			<!-- <div class="steps bg-white my-4 mx-5 py-4 px-2 rounded">
+				 -->
+			<!-- </div> -->
 
 			<!-- EXPLANATION -->
-			<div class="explanation bg-white my-4 mx-5 py-4 px-2 rounded" width="200px">
+			<!-- <div class="explanation bg-white my-4 mx-5 py-4 px-2 rounded" width="200px"> -->
 				
 			</div>
 

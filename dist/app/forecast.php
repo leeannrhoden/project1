@@ -1,6 +1,8 @@
 <?php
 // Get the Keys
+
   include 'keys.php';
+
 
   // Get the address from the form and sanitize it
   $address = htmlspecialchars($_POST["location"]);
@@ -51,9 +53,10 @@
   //Weather Variables
     $temp_current = round($forecast["currently"]["temperature"]);
     $humidity_current = $forecast["currently"]["humidity"]*100;
-    $icon_current = $forecast["currently"] ["icon"];
+    $icon_current = $forecast["currently"]["icon"];
 
-
+// JSON.......Expirements
+    $expirements = file_get_contents('../app/expirements.json');
 
 
     ?>
